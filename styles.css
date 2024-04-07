@@ -1,0 +1,20 @@
+/* styles.css */
+
+.bg-custom-dark {
+    background-color: #030a15; /* Puedes ajustar este color según tus preferencias */
+}
+.imagen-grande {
+    background-image: url('GRANDE.png'); /* Asegúrate de que la ruta de la imagen sea correcta */
+    background-size: cover; /* Esto hace que la imagen se ajuste al contenedor */
+    background-position: center; /* Centra la imagen */
+    height: 400px; /* Ajusta esto según la altura deseada para tu imagen */
+    width: 100%; /* Esto hará que el div ocupe el ancho completo del contenedor */
+}
+.info-column {
+    display: flex; /* Utiliza flexbox para controlar el contenido */
+    flex-direction: column; /* Alinea los elementos en una columna */
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    min-height: 300px; /* Establece una altura mínima para asegurar que la línea sea continua */
+    padding: 20px; /* Agrega algo de relleno para espaciar el contenido */
+}
